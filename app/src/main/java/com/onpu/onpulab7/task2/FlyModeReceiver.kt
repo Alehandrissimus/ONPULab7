@@ -1,4 +1,4 @@
-package com.onpu.onpulab7
+package com.onpu.onpulab7.task2
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -12,6 +12,7 @@ import android.widget.Toast
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat.getSystemService
+import com.onpu.onpulab7.R
 
 class FlyModeReceiver : BroadcastReceiver() {
 

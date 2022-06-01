@@ -1,12 +1,13 @@
-package com.onpu.onpulab7
+package com.onpu.onpulab7.task2
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
+import com.onpu.onpulab7.R
 
-class CameraReceiver : BroadcastReceiver(){
+class CameraReceiver() : BroadcastReceiver(){
 
     override fun onReceive(context: Context?, intent: Intent?) {
         context?.let {

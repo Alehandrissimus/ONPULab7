@@ -1,4 +1,4 @@
-package com.onpu.onpulab7
+package com.onpu.onpulab7.task2
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -6,6 +6,7 @@ import android.content.Intent
 import android.widget.Toast
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
+import com.onpu.onpulab7.R
 
 class BatteryLowReceiver : BroadcastReceiver() {
 

@@ -1,4 +1,4 @@
-package com.onpu.onpulab7
+package com.onpu.onpulab7.task2
 
 import android.app.Application
 import android.app.NotificationChannel
@@ -7,6 +7,7 @@ import android.content.Intent
 import android.content.IntentFilter
 import android.net.ConnectivityManager
 import android.os.Build
+import android.util.Log
 import androidx.core.content.ContextCompat
 
 class App : Application() {
